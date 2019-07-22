@@ -12,20 +12,23 @@ body {
 p {
   color: white;
 }
-.navbar-fixed-top {
+.nav.navbar.navbar-inverse.navbar-fixed-top {
   background-color: rgb(255, 255, 255);
+  padding: 25px;
 }
 
-.container-fluid, {
-  width: 100%;
+.container-fluid {
   margin: 0px;
-  padding: 0px;
+  padding: 0px !important;
+}
+
+.col-md {
+  padding: 0px !important;
 }
 
 .about {
   background-color:#B6E3F2;
   height: 500px;
-  margin: 0px;
 }
 
 .about, .portfolio, .contact, p {
@@ -54,14 +57,19 @@ a {
   color: rgb(46, 104, 170);
 }
 
+.social {
+  padding: 15px;
+  margin: 0px;
+
+}
+
 .fa {
-  padding: 20px;
-  font-size: 30px;
-  width: 30px;
+  padding: 10px;
+  font-size: 30px !important;
+  width: 10% !important;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
-  border-radius: 50%;
+  /*border-radius: 50%;*/
 }
 
 .fa:hover {
