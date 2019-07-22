@@ -1,0 +1,74 @@
+body {
+  text-align: center;
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+}
+
+.row1 {
+  background-color:#B6E3F2;
+}
+
+p {
+  color: white;
+}
+.navbar-fixed-top {
+  background-color: rgb(255, 255, 255);
+}
+
+.container-fluid, {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+.about {
+  background-color:#B6E3F2;
+  height: 500px;
+  margin: 0px;
+}
+
+.about, .portfolio, .contact, p {
+  padding-top: 100px;
+}
+
+.portfolio {
+  background-color: #000073;
+  height: 500px;
+}
+
+.contact {
+  background-color: #2E304F;
+  height: 500px;
+}
+
+.heading {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  padding: 25px;
+  margin: 15px;
+}
+
+a {
+  color: rgb(46, 104, 170);
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    color: lightgrey;
+    text-decoration-line: none;
+}
+
+.fa-twitter, .fa-linkedin, .fa-github {
+  color: grey;
+}
