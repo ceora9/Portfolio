@@ -7,20 +7,18 @@
 }
 
 body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Roboto, Helvetica, sans-serif;
   text-align: center;
   font-family: roboto, sans-serif;
   font-style: normal;
   font-weight: 200;
+  background-color: #d1d3d4;
 }
 
 p {
   color: white;
-}
-
-body {
-  margin: 0;
-  font-size: 28px;
-  font-family: Roboto, Helvetica, sans-serif;
 }
 
 .header {
@@ -44,7 +42,7 @@ body {
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: #273033;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -75,7 +73,7 @@ body {
 }
 
 .navbar {
-  background-color: #4d4d4d;
+  background-color: #E3E5E6;
   padding: 25px;
 }
 
@@ -90,28 +88,32 @@ body {
 
 .about, .portfolio, .contact, p {
   align-content: center;
-  
 }
 
 .about {
-  background-color:#B6E3F2;
+  background-color:#d1d3d4;
   height: 500px;
-  color: #404040;
+  color: #273033;
   padding: 100px;
 }
 
 .portfolio {
-  background-color: #000073;
+  background-color: #B6E3F2;
+  height: 500px;
+  color: 273033;
+  padding: 100px;
+}
+
+.contact {
+  background-color: #273033;
   height: 500px;
   color: white;
   padding: 100px;
 }
 
-.contact {
-  background-color: #464646;
-  height: 500px;
-  color: white;
-  padding: 100px;
+footer {
+  background-color: black;
+  color: #E3E5E6;
 }
 
 a {
@@ -141,7 +143,7 @@ SOCIAL
 }
 
 .fa:hover {
-    color: lightgrey;
+    color: darkblue;
     text-decoration-line: none;
 }
 
