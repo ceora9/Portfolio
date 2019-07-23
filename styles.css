@@ -1,12 +1,16 @@
+.heading {
+  font-family: roboto, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  padding: 25px;
+  margin: 15px;
+}
+
 body {
   text-align: center;
   font-family: roboto, sans-serif;
   font-style: normal;
   font-weight: 200;
-}
-
-.row1 {
-  background-color:#B6E3F2;
 }
 
 p {
@@ -24,7 +28,6 @@ body {
 }
 
 .header {
-  background-color: #f1f1f1;
   padding: 30px;
   text-align: center;
 }
@@ -39,79 +42,8 @@ body {
 
 .navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: black;
 }
-
-/*
-NAV BAR HAMBURGER
-*/
-
-@media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav a.icon {
-    float: right;
-    display: block;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
-  .topnav.responsive a.icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .topnav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-}
-
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
-}
-
-/* Hide the links inside the navigation menu (except for logo/home) */
-.topnav #myLinks {
-  display: none;
-}
-
-/* Style navigation menu links */
-.topnav a {
-  color: white;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-  display: block;
-}
-
-/* Style the hamburger menu */
-.topnav a.icon {
-  background: black;
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-
-/* Add a grey background color on mouse-over */
-.topnav a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-/* Style the active link (or home/logo) */
-.active {
-  background-color: #4CAF50;
-  color: white;
-}
-
-/*
-END NAV BAR HAMBURGER
-*/
 
 .navbar a {
   float: left;
@@ -129,7 +61,6 @@ END NAV BAR HAMBURGER
 }
 
 .navbar a.active {
-  background-color: #4CAF50;
   color: white;
 }
 
@@ -148,7 +79,7 @@ END NAV BAR HAMBURGER
 }
 
 .navbar {
-  background-color: grey;
+  background-color: #808080;
   padding: 25px;
 }
 
@@ -161,13 +92,13 @@ END NAV BAR HAMBURGER
   padding: 0px !important;
 }
 
+.about, .portfolio, .contact, p {
+  padding-top: 100px;
+}
+
 .about {
   background-color:#B6E3F2;
   height: 500px;
-}
-
-.about, .portfolio, .contact, p {
-  padding-top: 100px;
 }
 
 .portfolio {
@@ -176,21 +107,17 @@ END NAV BAR HAMBURGER
 }
 
 .contact {
-  background-color: #2E304F;
+  background-color: #464646;
   height: 500px;
-}
-
-.heading {
-  font-family: roboto, sans-serif;
-  font-style: normal;
-  font-weight: 200;
-  padding: 25px;
-  margin: 15px;
 }
 
 a {
   color: rgb(46, 104, 170);
 }
+
+/*
+SOCIAL
+*/
 
 .material-icons {
   font-size: 30px !important;
@@ -208,7 +135,6 @@ a {
   width: 10% !important;
   text-align: center;
   text-decoration: none;
-  /*border-radius: 50%;*/
 }
 
 .fa:hover {
@@ -217,5 +143,5 @@ a {
 }
 
 .fa-twitter, .fa-linkedin, .fa-github {
-  color: grey;
+  color: white;
 }
