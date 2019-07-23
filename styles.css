@@ -17,10 +17,6 @@ p {
   color: white;
 }
 
-.glyphicon glyphicon-menu-hamburger {
-  color: grey;
-}
-
 body {
   margin: 0;
   font-size: 28px;
@@ -79,7 +75,7 @@ body {
 }
 
 .navbar {
-  background-color: #808080;
+  background-color: #4d4d4d;
   padding: 25px;
 }
 
@@ -93,22 +89,29 @@ body {
 }
 
 .about, .portfolio, .contact, p {
-  padding-top: 100px;
+  align-content: center;
+  
 }
 
 .about {
   background-color:#B6E3F2;
   height: 500px;
+  color: #404040;
+  padding: 100px;
 }
 
 .portfolio {
   background-color: #000073;
   height: 500px;
+  color: white;
+  padding: 100px;
 }
 
 .contact {
   background-color: #464646;
   height: 500px;
+  color: white;
+  padding: 100px;
 }
 
 a {
